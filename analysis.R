@@ -3,4 +3,5 @@ x <- seq(1, 10, len = 1) #when assigning a variable use <-, not =;
 y <- 40 + 2 * x + rnorm(10, 0, 5)
 plot(x, y)
 summary(x)
-median(x)
+mean(x)
+
